@@ -3,5 +3,13 @@
 }
 
 body{
+    background-color: #383838;
+}
+
+canvas {
+    display: block;
+    width: 800px;
+    height: 480px;
+    margin: 0 auto;
     background-color: #000;
 }

@@ -5,11 +5,16 @@ var E = function () {
 E.prototype = {
     init: function () {
         this.time = Date.now()
+        this.canvas = document.querySelector('canvas')
+        this.ctx = this.canvas.getContext('2d')
+        this.width = 800
+        this.height = 480
         requestAnimFrame(this.loop.bind(this))
     },
     step: function (dt) {
     },
     render: function (dt) {
+        this.ctx.clearRect(0, 0, this.width, this.height)
     },
     loop: function () {
         var timeNow = Date.now()
