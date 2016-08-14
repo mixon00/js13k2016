@@ -1,0 +1,37 @@
+{
+  "name": "js13k2016",
+  "version": "1.0.0",
+  "description": "js13k",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mixon00/js13k2016.git"
+  },
+  "keywords": [
+    "game",
+    "gamedev",
+    "js13k",
+    "compo"
+  ],
+  "author": "Mateusz Misztoft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mixon00/js13k2016/issues"
+  },
+  "homepage": "https://github.com/mixon00/js13k2016#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-check-filesize": "^2.0.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.9",
+    "gulp-webserver": "^0.9.1",
+    "gulp-zip": "^3.2.0"
+  }
+}
