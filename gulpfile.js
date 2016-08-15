@@ -28,6 +28,7 @@ var gulp = require('gulp'),
             'src/css/*.css',
         ],
         js: [
+            'src/js/glfx.js',
             'src/js/engine.js',
             'src/js/*.js'
         ],
